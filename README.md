@@ -1,4 +1,4 @@
-# audiobatics
+# audioflyer
 Surround sound audio mixing controlled by serial commands. Making mixes that fly!
 
 Why? Because this is going to be awesome.
