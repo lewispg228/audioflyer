@@ -1,0 +1,20 @@
+\\ Magic wand controller.
+
+The participant gets to be in a circle of speakers. Each speaker has a sensor on it to detect if the participant is pointing his/her wand at it. That's where the sound comes from. Imagine mixing a track using this sort of tech. How fun would it be to position the drums/guitar/vocals/lead by pointint where you want them??!!
+
+\\ Spinning speakers.
+
+Put some speakers on a rotating stand - or maybe the speaker is pointint up into a 45 degree mirror that can rotate (to avoid having to deal with cable twisting). This would kind of be like a tremelo effect, but using the room sound to actually effect what you hear. How cool would that be??!!
+
+\\ Listener lazy susan
+
+Rotate the listener? What if I was on a chair that was on a rotating plateform (kind of a large lazy susan), while I record the mix in real time with my binaural mics in. I could rotate physiccally, instead of automating the audio around the speakers.... whoa... this could get wiggy.
+
+\\ tube technology
+
+Put some sounds through long tubes, rotate the tubes, total sonic awesomeness without explaination.
+
+\\ Corrective EQ and (maybe) compression/limiting
+
+Put a DSP chip (blender) that can conduct a hearing test and make a custom EQ per channel, flatten out the speaker, correct for any hearing loss for the listener. Possibly add in some limiting to protect the speakers and allow you to really not worry about maxing out a channel and damaging a speaker or the system in anyway.
+
