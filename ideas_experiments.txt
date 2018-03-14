@@ -18,3 +18,10 @@ Put some sounds through long tubes, rotate the tubes, total sonic awesomeness wi
 
 Put a DSP chip (blender) that can conduct a hearing test and make a custom EQ per channel, flatten out the speaker, correct for any hearing loss for the listener. Possibly add in some limiting to protect the speakers and allow you to really not worry about maxing out a channel and damaging a speaker or the system in anyway.
 
+\\ magical headphone experience - Realtime automation control to manican head, livestreamed to participant
+
+Have a manican head mic setup with an array of speakers around it. (Use the 3Dio low end maybe?) Stream the audio from the mics to the participant's headphones. This way, the participant can be in a different environment - any room really - and the audio tricks (e/g/ moving the audio position) can happen in real time in the recording room. This would seem like the audio is coming from a speaker that doesn't exhist in the actual room that they are listening in. It would seem magical. Sense their rotational position and adjust the playback room/live stream accordingly.
+
+\\ Blind fold experience?
+
+What if the participant/listener was blind folded, and interacted with the space with either a magic wand or some sort of touch sensative surfaces (walls? Joystick?). Audio experience to the max. Tell a story by flying through the space. Make it a game to point where you think you hear the sound.
