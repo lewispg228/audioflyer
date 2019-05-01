@@ -44,7 +44,7 @@
 
 #include <Metro.h>              // Include the Metro library header
 #include <Tsunami.h>            // Include the Tsunami library header
-//#include <AltSoftSerial.h>    // Optional for using AltSoftSerial
+#include <AltSoftSerial.h>    // Optional for using AltSoftSerial
 
 #define LED 13                  // our LED
 

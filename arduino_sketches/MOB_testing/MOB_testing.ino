@@ -111,7 +111,7 @@ int i;
   // Call update on the Tsunami to keep the track playing status current.
   tsunami.update();
 
-              delay_time = 1000;
+              delay_time = 2000;
               // First retrieve and print the version and number of tracks        
               if (tsunami.getVersion(gTsunamiVersion, VERSION_STRING_LEN)) {
                   Serial.print(gTsunamiVersion);
@@ -123,37 +123,37 @@ int i;
               }
               else
                   Serial.print("WAV Trigger response not available");
-              delay(delay_time);
+              //delay(delay_time);
               Serial.print("1");
               tsunami.stopAllTracks();
               tsunami.samplerateOffset(0, 0);        // Reset sample rate offset to 0
-              delay(delay_time);
+              //delay(delay_time);
               Serial.print("2");
               tsunami.masterGain(0, 0);              // Reset the master gain to 0dB
-              delay(delay_time);
+              //delay(delay_time);
               Serial.print("3");
-              tsunami.trackGain(1, -40);             // Preset Track 2 gain to -40dB
-              tsunami.trackGain(2, -40);
-              tsunami.trackGain(3, -40);
-              tsunami.trackGain(4, -40);
-              
-              tsunami.trackGain(100, -40);
-              tsunami.trackGain(101, -40);
-              tsunami.trackGain(102, -40);
-              tsunami.trackGain(103, -40);
+              tsunami.trackGain(1, -5);             // Preset Track 2 gain to -40dB
+              tsunami.trackGain(2, -5);
+
+              while(1)
+              {
+                for(int i = 10 ; i < 18 ; i++)
+                {
+                  delay(delay_time);
+                  Serial.print("track: ");
+                  Serial.println(i);
+                  tsunami.trackGain(i, -5);
+                  delay(50);
+                  tsunami.trackPlayPoly(i, 0, false);                   
+                }
+              }         
+
               delay(delay_time);
-              Serial.print("4");
-              tsunami.trackPlayPoly(1, 0, true);
-              tsunami.trackPlayPoly(2, 1, true); 
               tsunami.trackPlayPoly(3, 0, true);   
-              tsunami.trackPlayPoly(4, 1, true);    
+              tsunami.trackPlayPoly(4, 0, true);    
               
-              tsunami.trackPlayPoly(100, 2, true); 
-              tsunami.trackPlayPoly(101, 3, true); 
-              tsunami.trackPlayPoly(102, 4, true); 
-              tsunami.trackPlayPoly(103, 5, true); 
               delay(delay_time);
-              tsunami.trackFade(1, 0, 50, false);
+              tsunami.trackFade(1, 0, 5, false);
               tsunami.trackFade(4, 0, 50, false);
               
               tsunami.trackFade(100, 0, 50, false);
